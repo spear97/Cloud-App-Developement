@@ -1,0 +1,24 @@
+{% extends 'static/template.html' %}
+
+{% block title %}Registration{% endblock %}
+
+{% block content %}
+<div class="container mt-5 text-center">
+    <h2>Sign Up</h2>
+    <br>
+    <div class="form-group">
+        <form action="{% url 'djangoapp:signup' %}" method="POST">
+            {% csrf_token %}
+            <label for="username"><b>User Name</b></label>
+            <input type="text" class="form-control text-center" placeholder="John.Doe" name="username" required>
+            <label for="firstname"><b>First Name</b></label>
+            <input type="text" class="form-control text-center" placeholder="John" name="firstname" required>
+            <label for="lastname"><b>Last Name</b></label>
+            <input type="text" class="form-control text-center" placeholder="Doe" name="lastname" required>
+            <label for="psw"><b>Password</b></label>
+            <input type="password" class="form-control text-center" placeholder="Password" name="psw" required>
+            <button class="btn btn-primary mt-3" type="submit">Sign Up</button>
+        </form>
+    </div>
+</div>
+{% endblock %}
