@@ -2,7 +2,14 @@
 
 This Repository illustrates how to create a Cloud-based Web Application ustilzing Django and IBM-Cloud Functions that use IBM Cloud and Watson Natural Language Understanding (NLU) Service.
 
-## What is Django?
+## Table of Contents
+- [What is Django?](#Django)
+- [What is IBM Cloud?](#IBMCloud)
+- [What is Function as a Service (FaaS)](FaaS)
+- [What is Artificial Intelligence?](AI)
+- [What is Natural Language Understanding (NLU)](#NLU)
+
+## Django
 
 Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. It is free and open-source, and it follows the Model-View-Template (MVT) architectural pattern. Django's primary goal is to simplify the creation of complex, database-driven websites by emphasizing reusability and "pluggability" of components.
 
@@ -24,7 +31,7 @@ Django is a high-level Python web framework that encourages rapid development an
 - `Community and Ecosystem`: Django has a large and active community of developers, along with a rich ecosystem of third-party packages and extensions.
 - `Documentation`: Django offers comprehensive and well-organized documentation that covers all aspects of web development with the framework.
 
-## What is IBM Cloud?
+## IBMCloud
 IBM Cloud is a comprehensive cloud computing platform offered by IBM, providing a wide range of cloud services and solutions to businesses and developers. It enables organizations to build, deploy, and manage applications and workloads across public, private, and hybrid cloud environments. IBM Cloud empowers organizations to innovate, scale, and transform their businesses with cloud-native technologies and solutions, driving digital innovation and competitive advantage in today's digital economy.
 
 ### Advantages of IBM Cloud
@@ -34,7 +41,7 @@ IBM Cloud is a comprehensive cloud computing platform offered by IBM, providing 
 - `Open Standards and Interoperability`: IBM Cloud adheres to open standards and promotes interoperability with other cloud providers, ensuring seamless integration and portability of workloads.
 - `Extensive Partner Ecosystem`: IBM Cloud has an extensive ecosystem of technology partners and solution providers, offering complementary services and solutions to enhance the platform's capabilities.
 
-## What is Function as a Serivce (FaaS)?
+## FaaS
 FaaS, or Function as a Service, is a cloud computing model that allows developers to deploy individual functions or pieces of code in the form of serverless functions. In this model, developers write small, specialized functions that perform specific tasks or operations, and these functions are executed in response to events or triggers without the need to manage the underlying infrastructure. FaaS offers several benefits for developers and organizations, including reduced operational overhead, improved scalability, rapid development, and cost efficiency. It is well-suited for building event-driven, microservices-based applications, IoT (Internet of Things) applications, real-time data processing, and more.
 
 ### Advantages of FaaS?
@@ -45,7 +52,7 @@ FaaS, or Function as a Service, is a cloud computing model that allows developer
 - `Stateless Execution`: Functions in a FaaS architecture are typically stateless, meaning they do not maintain any persistent state between invocations. State management is handled externally, often through external storage services or databases.
 - `Vendor-Managed Environment`: FaaS platforms are typically provided by cloud service providers such as AWS Lambda, Azure Functions, or Google Cloud Functions. These providers manage the underlying infrastructure, ensuring reliability, scalability, and security of the FaaS environment.
 
-## What are IBM Cloud Function?
+## CloudFunctions
 
 IBM Cloud Functions, also known as IBM Cloud Functions or IBM Cloud OpenWhisk, is a serverless computing platform offered by IBM Cloud. It enables developers to build, deploy, and run event-driven applications and microservices without the need to manage infrastructure. Overall, IBM Cloud Functions provides developers with a flexible and scalable platform for building event-driven applications and microservices in a serverless environment. By abstracting away infrastructure management and providing seamless integration with other IBM Cloud services, it empowers developers to focus on writing code and delivering value to their users.
 
@@ -59,7 +66,7 @@ IBM Cloud Functions, also known as IBM Cloud Functions or IBM Cloud OpenWhisk, i
 - `Pay-Per-Use Billing`: IBM Cloud Functions follows a pay-per-use billing model, where users are only charged for the resources consumed by their serverless functions. This cost-effective pricing model eliminates the need for upfront infrastructure investment and allows for granular billing based on actual usage.
 - `Integration with CI/CD Pipelines`:  IBM Cloud Functions integrates with continuous integration and continuous delivery (CI/CD) pipelines, enabling developers to automate the deployment, testing, and delivery of serverless applications. This streamlines the development process and facilitates rapid iteration and deployment of code changes.
 
-## What is Artificial Intelligence?
+## AI
 
 Artificial Intelligence (AI) is a branch of computer science that focuses on the development of intelligent machines capable of performing tasks that typically require human intelligence. These tasks include problem-solving, learning, reasoning, perception, understanding natural language, and more. AI technologies aim to mimic or replicate human cognitive functions, enabling machines to analyze data, make decisions, and solve complex problems. AI has the potential to revolutionize various industries and sectors, including healthcare, finance, transportation, education, and entertainment. It enables organizations to automate tasks, gain insights from data, improve decision-making, enhance customer experiences, and drive innovation. However, realizing the full potential of AI requires addressing technical challenges, ethical considerations, and societal implications in a responsible and inclusive manner.
 
@@ -71,3 +78,16 @@ Artificial Intelligence (AI) is a branch of computer science that focuses on the
 - `Expert Systems`: Expert systems are AI systems that leverage human knowledge and expertise to perform tasks or make decisions in specific domains. These systems use rule-based reasoning and knowledge representation to emulate the decision-making process of human experts.
 - `Autonomous Agents`: Autonomous agents are AI systems that operate independently in complex environments, making decisions and taking actions to achieve specific goals or objectives. Examples of autonomous agents include autonomous vehicles, virtual assistants, and chatbots.
 - `Ethical and Societal Implications`: As AI technologies become more pervasive, there is increasing awareness of the ethical and societal implications of AI-driven decision-making, bias in AI systems, privacy concerns, job displacement, and the impact on society at large. Addressing these challenges requires careful consideration of ethical principles, regulations, and policies governing the development and deployment of AI technologies.
+
+## NLU
+Natural Language Understanding (NLU) is a branch of artificial intelligence (AI) that focuses on the comprehension and interpretation of human language by computers. It involves the analysis of text or speech input to extract meaningful insights, understand sentiment, detect entities, and identify intent. Overall, NLU plays a crucial role in enabling computers to understand and interpret human language, facilitating more natural and intuitive interactions between humans and machines. It powers a wide range of applications and services that leverage the rich insights hidden within textual data.
+
+### Key components and features of NLU
+- `Text Processing`: NLU systems process unstructured text data from various sources, such as social media posts, customer reviews, emails, articles, and chat conversations. Text processing techniques include tokenization, part-of-speech tagging, parsing, and named entity recognition (NER).
+- `Sentiment Analysis`: NLU systems analyze the sentiment expressed in text to determine whether the sentiment is positive, negative, or neutral. Sentiment analysis helps businesses gauge public opinion, understand customer feedback, and identify trends or issues.
+- `Entity Recognition`: NLU systems identify and extract entities from text, such as people, organizations, locations, dates, and numerical values. Entity recognition enables applications to understand the context of the text and extract relevant information.
+- `Intent Recognition`: NLU systems infer the intent behind a user's input or query to determine what action the user wants to perform. Intent recognition is crucial for chatbots, virtual assistants, and customer support systems to understand user requests and provide appropriate responses.
+- `Language Understanding Models`: NLU models, such as machine learning and deep learning models, are trained on large datasets to understand the nuances of human language. These models learn to recognize patterns, semantics, and context in text data to accurately perform tasks like sentiment analysis, entity recognition, and intent classification.
+- `Domain-specific Capabilities`: NLU systems can be tailored to specific domains or industries, such as healthcare, finance, retail, or customer service. Domain-specific NLU models are trained on domain-specific data and terminology to provide more accurate and relevant insights for specialized applications.
+- `APIs and Services`: Many cloud providers and AI platforms offer NLU APIs and services that developers can integrate into their applications. These APIs provide pre-built NLU capabilities, allowing developers to quickly add language understanding functionality without having to build and train custom models from scratch.
+- `Use Cases`: NLU is used in various applications and industries, including customer support automation, social media monitoring, market research, content analysis, sentiment analysis, chatbots, virtual assistants, and voice recognition systems.
