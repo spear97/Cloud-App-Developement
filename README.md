@@ -5,8 +5,8 @@ This Repository illustrates how to create a Cloud-based Web Application ustilzin
 ## Table of Contents
 - [What is Django?](#Django)
 - [What is IBM Cloud?](#IBMCloud)
-- [What is Function as a Service (FaaS)](FaaS)
-- [What is Artificial Intelligence?](AI)
+- [What is Function as a Service (FaaS)](#FaaS)
+- [What is Artificial Intelligence?](#AI)
 - [What is Natural Language Understanding (NLU)](#NLU)
 
 ## Django
